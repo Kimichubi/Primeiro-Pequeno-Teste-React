@@ -1,0 +1,32 @@
+.container {
+  font-family: sans-serif;
+  font-weight: 200px;
+  margin-left: 30px;
+}
+.paragraph {
+  font-size: 15px;
+  transition: 1s;
+  &:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 15px;
+  }
+}
+.btn {
+  width: 200px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.6s;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+}
